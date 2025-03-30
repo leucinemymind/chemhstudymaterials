@@ -1,1 +1,1 @@
-# chemhstudymaterials
+chem honors study materials
