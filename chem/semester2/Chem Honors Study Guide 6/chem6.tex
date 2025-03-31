@@ -31,6 +31,8 @@
 \newcommand{\degF}{$\degree$F \,}
 \newcommand{\R}{\left(0.0821 \: \frac{L \cdot atm}{mol \cdot \text{K}}\right)}
 \newcommand{\cunits}{$\frac{J}{g \degree \text{C}}$}
+\newcommand{\Hf}{$\Delta H_\text{f}$} % heat of formation
+\newcommand{\mathHf}{\Delta H_\text{f}} %heat of formation in math mode
 
 \title{Chem Honors Study Guide 6}
 \author{Test 3 S2}
@@ -39,5 +41,39 @@
 \begin{document}
 
 \maketitle
+
+\section{Gasses and Heat in Stoichiometry}
+
+\subsection*{Gasses}
+$$6 \text{HCl} + 2 \text{Al} \longrightarrow 2 \text{AlCl}_3 + 3\text{H}_2$$
+
+At STP, how many $ml$ of H$_2$ gas are produced from 12 $g$ of solid Al? (1 $mol$ = 22.4 $L$ at STP)
+
+Using stoichiometry:
+
+$$(12 \: g \: \text{Al}) \times \left(\frac{1 \: mol \: \text{Al}}{26.98 \: g \: \text{Al}}\right) \times \left(\frac{3 \: mol \: \text{H}_2}{2 \: mol \: \text{Al}}\right) \times \left(\frac{22.4 \: L \: \text{H}_2}{1 \: mol \: \text{H}_2}\right) \times \left(\frac{1000 \: ml}{1 \: L}\right)$$
+$$ = \boxed{14944.4 \: ml}$$
+
+\subsection*{Heats of Formation}
+\Hf is the heat absorbed/released when compounds are formed from elemental units. The \Hf of elements, including diatomic elements, is always 0.
+
+Heats of formation equation:
+
+\begin{equation} \label{heatsofform}
+\Delta H_\text{rxn} = \sum \Delta H_\text{f(products)} -  \Delta H_\text{f(reactants)}
+\end{equation}
+
+$$\text{CS}_2 + 3\text{O}_2 \longrightarrow \text{CO}_2 + 2\text{SO}_2$$
+
+Find the heat of formation given the following: 
+
+$$\mathHf \: (\text{CO}_2) = -393.5 \: \frac{kJ}{mol}$$
+$$\mathHf \: (\text{SO}_2) = -296.8 \: \frac{kJ}{mol}$$
+$$\mathHf \: (\text{CS}_2) = 87.9 \: \frac{kJ}{mol}$$
+
+Solution: Using \ref{heatsofform}:
+
+$$ [-393.5 + 2(-296.8)] - [3(0) + 87.9] $$
+$$ = \boxed{1075 \: \frac{kJ}{mol}} $$
 
 \end{document}
