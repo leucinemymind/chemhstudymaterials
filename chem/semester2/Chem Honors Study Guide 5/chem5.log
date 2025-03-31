@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 MAR 2025 18:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  31 MAR 2025 14:22
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **chem5.tex
 (./chem5.tex
@@ -944,7 +945,7 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \@quotelevel=\count459
 \@quotereset=\count460
 
-(./chem5.aux)
+No file chem5.aux.
 \openout1 = `chem5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -965,7 +966,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
-
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count461
@@ -1039,7 +1039,6 @@ No file chem5.bbl.
 Package biblatex Info: Reference section=0 on input line 39.
 Package biblatex Info: Reference segment=0 on input line 39.
 Package hyperref Info: Link coloring ON on input line 39.
-(./chem5.out) (./chem5.out)
 \@outlinefile=\write5
 \openout5 = `chem5.out'.
 
@@ -1060,7 +1059,6 @@ LaTeX Info: Redefining \showhyphens on input line 39.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -1088,12 +1086,40 @@ Package chemgreek Info: Activating mapping `default' on line 39.
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
+LaTeX Warning: Reference `ke' on page 2 undefined on input line 101.
+
+
+
 [2]
+
+LaTeX Warning: Reference `boyle' on page 3 undefined on input line 157.
+
+
+LaTeX Warning: Reference `charles' on page 3 undefined on input line 157.
+
+
+LaTeX Warning: Reference `gaylussac' on page 3 undefined on input line 157.
+
+
+LaTeX Warning: Reference `ideal' on page 3 undefined on input line 164.
+
+
 
 [3]
 
+LaTeX Warning: Reference `effusion' on page 4 undefined on input line 183.
+
+
+
 [4]
-<phasediag.png, id=89, 752.8125pt x 358.33875pt>
+
+LaTeX Warning: Reference `molefraction' on page 5 undefined on input line 223.
+
+
+LaTeX Warning: Reference `partialpressure' on page 5 undefined on input line 22
+9.
+
+<phasediag.png, id=68, 752.8125pt x 358.33875pt>
 File: phasediag.png Graphic file (type png)
 <use phasediag.png>
 Package pdftex.def Info: phasediag.png  used on input line 242.
@@ -1101,7 +1127,7 @@ Package pdftex.def Info: phasediag.png  used on input line 242.
 
 
 [5 <./phasediag.png>]
-<funnypic.jpg, id=101, 770.12718pt x 749.04843pt>
+<funnypic.jpg, id=80, 770.12718pt x 749.04843pt>
 File: funnypic.jpg Graphic file (type jpg)
 <use funnypic.jpg>
 Package pdftex.def Info: funnypic.jpg  used on input line 254.
@@ -1114,7 +1140,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--287
 cses/gcse-chemistry-help/energy-level-
  []
 
-<eldiag.jpg, id=113, 2055.68pt x 2055.68pt>
+<eldiag.jpg, id=93, 2055.68pt x 2055.68pt>
 File: eldiag.jpg Graphic file (type jpg)
 <use eldiag.jpg>
 Package pdftex.def Info: eldiag.jpg  used on input line 291.
@@ -1122,7 +1148,7 @@ Package pdftex.def Info: eldiag.jpg  used on input line 291.
 
 
 [7 <./eldiag.jpg>]
-<heatcurve.jpg, id=126, 922.44624pt x 567.11874pt>
+<heatcurve.jpg, id=106, 922.44624pt x 567.11874pt>
 File: heatcurve.jpg Graphic file (type jpg)
 <use heatcurve.jpg>
 Package pdftex.def Info: heatcurve.jpg  used on input line 318.
@@ -1138,18 +1164,36 @@ Package pdftex.def Info: heatcurve.jpg  used on input line 318.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `chem5.out' has not changed.
-(rerunfilecheck)             Checksum: 5C140F94D95BCE7C96310E437B91E9AE;436.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `chem5.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `chem5.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  5C140F94D95BCE7C96310E437B91E9AE;436.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                chem5
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'chem5.run.xml'.
 \openout1 = `chem5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32169 strings out of 473190
- 611109 string characters out of 5715801
- 1471436 words of memory out of 5000000
- 54791 multiletter control sequences out of 15000+600000
- 572603 words of font info for 136 fonts, out of 8000000 for 9000
+ 32160 strings out of 473190
+ 610993 string characters out of 5715801
+ 1470914 words of memory out of 5000000
+ 54784 multiletter control sequences out of 15000+600000
+ 572711 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,87p,1002b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -1168,10 +1212,10 @@ e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2025/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/tex
 live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texli
 ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on chem5.pdf (10 pages, 1339907 bytes).
+Output written on chem5.pdf (10 pages, 1338969 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  66 named destinations out of 1000 (max. 500000)
- 45121 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 45089 words of extra memory for PDF output out of 51595 (max. 10000000)
 
