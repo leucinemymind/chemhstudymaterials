@@ -1,5 +1,1 @@
-chem honors study materials
-
-edit: GITHUB IS FINALLY BEING AGREEABLE!
-
-edit: i jinxed myself
+This is where my study materials for chem are! Because I tend to make a lot of mistakes and keep having to re-upload the pdfs, I did what needed to be done. The important file is the .pdf in each folder (the other ones are important too but for other reasons). This one repo has been the absolute nicest to me, not giving me any issues at all ... hope we can keep it that way :)
