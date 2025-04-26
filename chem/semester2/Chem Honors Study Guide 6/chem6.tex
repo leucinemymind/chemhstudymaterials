@@ -36,7 +36,7 @@
 
 \title{Chemistry Honors Study Guide}
 \author{Test 3 S2}
-\date{Test date: TBD}
+\date{Test date: May 2, 2025}
 
 \begin{document}
 
@@ -134,5 +134,96 @@ If \textit{none} of the oxidation numbers change, the reaction is \textit{not} a
 $$\text{Al}_2\text{S}_3 + 6 \text{H}_2\text{O} \longrightarrow 2\text{Al(OH)}_3 + 3\text{H}_2\text{S}$$
 
 is not a redox reaction.
+
+\subsection*{Balancing Redox Reactions}
+Assume an acidic, aqueous environment:
+
+$$\text{PbO}_2 + \text{I}_2 \longrightarrow \text{Pb}^{2+} + \text{IO}_3^-$$
+
+\begin{enumerate}[leftmargin=*]
+\item Separate into oxidation and reduction half-reactions by looking at oxidation numbers.
+
+\begin{gather*}
+\text{Oxidation half-reaction:} \: \text{I}_2 \longrightarrow \text{IO}_3^- \\
+\text{Reduction half-reaction:} \: \text{PbO}_2 \longrightarrow \text{Pb}^{2+}
+\end{gather*}
+
+\item Balance elements that are \textit{not} H or O.
+
+\begin{gather*}
+\text{I}_2 \longrightarrow 2\text{IO}_3^- \\
+\text{PbO}_2 \longrightarrow \text{Pb}^{2+}
+\end{gather*}
+
+\item Balance O by adding H$_2$O.
+
+\begin{gather*}
+6\text{H$_2$O} + \text{I}_2 \longrightarrow 2\text{IO}_3^- \\
+\text{PbO}_2 \longrightarrow \text{Pb}^{2+} + 2\text{H$_2$O}
+\end{gather*}
+
+\item Balance H by adding H$^+$.
+
+\begin{gather*}
+6\text{H$_2$O} + \text{I}_2 \longrightarrow 2\text{IO}_3^- + 12\text{H}^+\\
+4\text{H}^+ + \text{PbO}_2 \longrightarrow \text{Pb}^{2+} + 2\text{H$_2$O}
+\end{gather*}
+
+\item Add electrons to balance the charges. When balanced correctly, electrons should be on opposite sides (one on reactants, one on products). 
+
+\begin{gather*}
+6\text{H$_2$O} + \text{I}_2 \longrightarrow 2\text{IO}_3^- + 12\text{H}^+ + 10e^-\\
+2e^- + 4\text{H}^+ + \text{PbO}_2 \longrightarrow \text{Pb}^{2+} + 2\text{H$_2$O}
+\end{gather*}
+
+\item Multiply to cancel out the electrons.
+
+\begin{gather*}
+6\text{H$_2$O} + \text{I}_2 \longrightarrow 2\text{IO}_3^- + 12\text{H}^+ + 10e^-\\
+10e^- + 20\text{H}^+ + 5\text{PbO}_2 \longrightarrow 5\text{Pb}^{2+} + 10\text{H$_2$O}
+\end{gather*}
+
+\item Combine and cancel.
+
+\begin{gather*}
+\cancel{6\text{H$_2$O}} + \text{I}_2 \longrightarrow 2\text{IO}_3^- + \cancel{12\text{H}^+} + \cancel{10e^-}\\
+\cancel{10e^-} + \cancel{20\text{H}^+} 8\text{H}^+ + 5\text{PbO}_2 \longrightarrow 5\text{Pb}^{2+} + \cancel{10\text{H$_2$O}} 4\text{H$_2$O} \\
+\boxed{\text{I}_2 + 8\text{H}^+ + 5\text{PbO}_2 \longrightarrow 5\text{Pb}^{2+} + 4\text{H$_2$O} + 2\text{IO}_3^-}
+\end{gather*}
+
+\end{enumerate}
+
+\section{Batteries}
+Below is a diagram of a Voltaic/Galvanic cell:
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{voltaiccell}
+\end{figure}
+
+containing:
+
+\begin{description}
+\item[electrodes] to carry electricity. The \textbf{anode} is oxidised, losing mass as the material is released into solution, and the \textbf{cathode} is reduced, gaining mass as solid metal deposits onto it.
+\item[salt bridge] to close the circuit. 
+\item[solutions] that the electrodes are suspended in. 
+\end{description}
+
+Electrons flow from the anode to the cathode.
+
+To find the voltage of this battery:
+
+$$\text{Cu}^{2+} + 2e^- \longrightarrow \text{Cu} \: (0.34 V)$$
+$$\text{Zn}^{2+} + 2e^- \longrightarrow \text{Zn} \: (-0.726 V)$$
+
+Flip the equation that is higher on the standard reduction potential table:
+
+$$\text{Cu}^{2+} + 2e^- \longrightarrow \text{Cu} \: (0.34 V)$$
+$$\text{Zn} \longrightarrow \text{Zn}^{2+} + 2e^- \: (0.726 V)$$
+
+Combine:
+
+$$\boxed{\text{Cu}^{2+} + \text{Zn} \longrightarrow \text{Cu} + \text{Zn}^{2+}}$$
+
+\textsc{n.b.} When \textbf{multiplying} an equation to balance out the electrons, \textbf{the voltage does not change.} It only changes in sign if the equation is flipped.
 
 \end{document}
