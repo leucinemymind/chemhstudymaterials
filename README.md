@@ -2,4 +2,4 @@ This is where my study materials for chem are! Because I tend to make a lot of m
 
 Edit: For all you technical people out there, it's true that these study guides do not always use conventional formatting/best practices. It has been a journey of finding out that these conventions exist. However, they will be (relatively) consistent so hopefully that makes up for it!
 
-Edit 2: edits branch is tweaking out. solution: don't look at it :')
+Edit 2: all the branches are tweaking. solution: don't look at them :')
