@@ -1,5 +1,7 @@
-This is where my study materials for chem are! Because I tend to make a lot of mistakes and keep having to re-upload the pdfs, I did what needed to be done. The important file is the .pdf in each folder (the other ones are important too but for other reasons). This one repo has been the absolute nicest to me, not giving me any issues at all ... hope we can keep it that way :)
+This is where my study materials for chem are! Find the pdfs :)
 
-Edit: For all you technical people out there, it's true that these study guides do not always use conventional formatting/best practices. It has been a journey of finding out that these conventions exist. However, they will be (relatively) consistent so hopefully that makes up for it!
+Little disclaimer:
 
-Edit 2: *finally* got rid of the branch that was 16 commits behind and 2 commits ahead (pov you realize you're on the wrong branch after **16 COMMITS**). everything should be nice and clean for now
+I am not, as they call it, a TeXnician (underpaid) so please be patient with me! I don't always follow best practices/convention due to a) finding out too late about the best practice/convention and changing the structure now would take a very long time; b) it looks better that way imo; c) *not* being aware that the best practice/convention exists; d) any or all of the above. (you're totally welcome to pr though! it would just be *really* hard to edit everything because consistency on toppp)
+
+> If it compiles, it works. ---me 
